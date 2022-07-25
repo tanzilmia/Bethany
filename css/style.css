@@ -39,3 +39,20 @@
     border: 2px solid #fff;
     margin-top: 30px;
 }
+.header__last{
+    background: #F6F6F7;
+    padding: 20px;
+}
+.header__last img{
+    width: 70px;
+    cursor: pointer;
+    filter: gray;
+    -webkit-filter: grayscale(1); 
+    transition: all .5s ease-in-out;
+
+}
+.header__last img:hover{
+      filter: none;
+      -webkit-filter: grayscale(0);
+      transform: scale(1.1);
+}
